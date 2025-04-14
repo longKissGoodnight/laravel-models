@@ -1,0 +1,21 @@
+{
+    "name": "phoenix/laravel-models",
+    "description": "Common Laravel models for multiple projects",
+    "type": "library",
+    "require": {
+        "illuminate/database": "^11.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Phoenix\\LaravelModels\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Phoenix",
+            "email": "phoenix@example.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
